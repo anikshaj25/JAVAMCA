@@ -1,4 +1,5 @@
 Q 1. Create a class in which accept name, sir-name & display it.
+
 import java.util.Scanner;
 class Person {
 String name;
@@ -21,6 +22,8 @@ Person p = new Person();
 p.acceptDetails();
 p.displayDetails() }
 }
+
+
 Q 2. Accept the Roll no, Name, City connect to the database & store it.
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -53,6 +56,8 @@ System.out.println(e);
 }
 }
 }
+
+
 Q 3. Accept the 1no in base class display positive or negative number in child class
 import java.util.Scanner;
 class Base {
@@ -81,6 +86,8 @@ c.acceptNumber();
 c.displayNumberType();
 }
 }
+
+
 Q 4. Accept the 2no in base class display positive or negative number in child class
 import java.util.Scanner;
 class Base1 {
@@ -115,6 +122,8 @@ ChildClass c = new ChildClass();
 c.displayNumbersType();
 }
 }
+
+
 Q 5. Pi = 3.14 const. in interface calculate area of circle in which accept radius.
 import java.util.Scanner;
 interface Circle {
@@ -137,6 +146,8 @@ CircleImpl circle = new CircleImpl();
 circle.calculateArea();
 }
 }
+
+
 Q 6. Accept the length, breadth & show area of rectangle.
 import java.util.Scanner;
 class Rectangle {
@@ -160,6 +171,8 @@ rect.acceptDetails();
 rect.calculateArea();
 }
 }
+
+
 Q 7. Accept the 1no in base class ,2nd no in another base class display the multiplication of
 that no in child class.
 class BaseA {
@@ -189,6 +202,8 @@ child.b2.acceptNumber2(3); // Example number 2
 child.displayMultiplication();
 }
 }
+
+
 Q 8. Accept the 2 integer no. & 2 float no. calculate multiplication of integer no. & addition
 of float no. (Use method overloading).
 class Calculator {
@@ -206,6 +221,8 @@ calc.calculate(4, 5); // Integers
 calc.calculate(3.2f, 4.8f); // Floats
 }
 }
+
+
 Q 9. By the use of swing framework accept the EmpId, Name, Salary & show it.
 import javax.swing.*;
 public class Q9 {
@@ -245,6 +262,8 @@ frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
 }
+
+
 Q 10. By the use of AWT, Swing accept the Name, Roll no, City & store in Wamp Server
 (MySQL).
 import java.awt.*;
@@ -307,6 +326,8 @@ System.exit(0);
 });
 }
 }
+
+
 Q 11. By the use of Spring Framework create registration form of employee & store it.
 public class Employee {
 private int id;
@@ -329,6 +350,8 @@ public static void main(String[] args) {
 SpringApplication.run(Q11Application.class, args);
 }
 }
+
+
 Q 12. By the use of spring boot framework accept the roll no, Name, Password & store in
 Wamp Server (MySQL).
 public class Student {
@@ -346,6 +369,8 @@ public String storeStudent(@RequestBody Student student) {
 return "Student Data Stored Successfully: " + student.getName();
 }
 }
+
+
 Q 13. By the use of Spring Boot framework store the employee data in Wamp server the
 field name is EmpId, Name, Salary.
 public class Employee {
@@ -363,6 +388,8 @@ public String storeEmployee(@RequestBody Employee emp) {
 return "Employee Data Saved: " + emp.getName();
 }
 }
+
+
 Q 14. By the use of AWT ,Swing accept the CustName ,CustNo & store in JDBC connectivity.
 CREATE TABLE customers (
 cust_no INT PRIMARY KEY,
@@ -433,6 +460,8 @@ System.exit(0);
 });
 }
 }
+
+
 Q 15. By the use of AWT, Swing accept the Mobile ID, Mobile Name , Price & store it.
 import javax.swing.*;
 import java.awt.event.*;
@@ -473,6 +502,8 @@ frame.setVisible(true);
 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 }
 }
+
+
 Q 16. By the use of AWT, Swing accept the Mobile ID, Mobile Name , Price & store it using
 Spring boot.
 public class Mobile {
